@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+     crossorigin="anonymous">
+    <style>
+        .tm-social{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+
+    <title>De onde eu te vejo!</title>
+  </head>
+  <body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meu filme favorito</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+         data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" 
+         aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Links
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Link pro filme</a>
+                <a class="dropdown-item" href="#">Links úteis</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Meu instagram</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    <!--/NavBar-->
+
+    <!--Carousel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/foto2.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/foto1.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/foto3.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Sinopse do filme</h1>
+          <p class="lead">Após 20 anos de casamento, Ana Lúcia e Fábio 
+              decidem se separar e ele se muda para um apartamento do outro lado da rua. 
+              Além do problema conjugal, o ex-casal também enfrenta uma crise no trabalho 
+              e a mudança da filha para outra cidade. 
+              Apesar de tudo isso, eles precisam aprender a viver uma 
+              nova realidade e reinventar o amor.</p>
+        </div>
+      </div>
+    <!--/Jumbotron-->
+
+    <!--Cards-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/foto4.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">O início do filme</h5>
+                <p class="card-text">Aquela cena da mudança. Mudanças apenas 
+                    físicas ou uma metáfora também?</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Eu nunca gostei de pensar onde as coisas acabam.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Ana Lúcia
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/img/foto5.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Uma carta de amor à São Paulo</h5>
+                <p class="card-text">Neste filme, São Paulo se torna personagem.
+                     Acompanha o amor de Ana Lúcia e Fábio.</p>
+              </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                  <p>Você sempre diz que o que a gente lembra da coisa, as vezes 
+                      é melhor do que a coisa.</p>
+                  <footer class="blockquote-footer">
+                    <small class="text-muted">
+                    Fábio
+                    </small>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/img/foto6.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">A distância entre os dois</h5>
+                  <p class="card-text">Uma distância que não é lá uma distâââância, convenhamos.</p>
+                </div>
+              </div>
+            <div class="card">
+              <img class="card-img" src="assets/img/foto7.jpg" alt="Imagem do card">
+            </div>
+            <div class="card p-3 text-right">
+              <blockquote class="blockquote mb-0"></blockquote>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/foto8.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">A relação entre mãe e filha</h5>
+                  <p class="card-text">Após o término, a mãe tem como melhor 
+                      amiga a filha. E vivem algumas experiências juntas.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/img/foto9.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">O final poético</h5>
+                  <p class="card-text">E por fim, São Paulo se rende à poesia do casal, 
+                      em que a Ana revive momentos do casal que são narrados por ela.</p>
+                </div>
+              </div>
+          </div>
+    <!--/Cards-->
+
+
+    <!--Texto e Vídeo-->
+
+    <div class="row mt-5 mb-5">
+        <div class="col-md-6">
+            <h3>Trailler do filme</h3>
+            <p>
+                Eu vejo a vida como uma linha reta, em que conforme outras pessoas vão entrando em nossa vida, 
+                nossa linha vai ficando mais colorida, entrelaçada, dando voltas, nós, curvas, mas nunca
+                deixamos de andar em uma direção: pra frente. E, ao longo dessa trajetória, outras pessoas podem
+                (ou não) acompanhar nossa "linha" de vida. Algumas pessoas acompanham nossa linha por mais tempo, 
+                outras ficam pouco tempo, e assim nossa vida vai se tornando algo muito mais colorido, vívido, 
+                cheia de experiências.
+            </p>
+            <p>
+                (SPOILERS) Em De onde eu te vejo, Ana e Fábio seguiam juntos essa "linha de vida", uma linha
+                sendo paralela à outra, ambos se acompanhando, criaram uma filha e foram assim até quando puderam
+                aguentar. Em dado momento, ambos se separaram, mas seus laços eram muito maiores do que isso, 
+                a barreira que eles haviam imposto entre eles era pequena perto do amor que sentiam. Talvez a crise
+                no relacionamento somente era causada pela falta de individualidades, que foram recuperadas de certa 
+                forma quando foram morar sozinhos. E, na solidão, viram o quanto amavam um ao outro. E o quanto suas 
+                "linhas de vida" sentiam falta de alguém que os acompanhasse.  
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2claqa74qOk" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+
+<!--/Texto e Vídeo-->
+
+<!--Rodapé-->
+<hr>
+    <footer>
+
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center">          
+                    <a href="https://www.instagram.com/fehcasa/" target="_blank" class="p-2">
+                        <img class="tm-social" src="assets/img/instagram.png" alt="Logo do instagram">
+                    </a>
+                    <a href="https://twitter.com/feIpopinha" target="_blank" class="p-2">
+                        <img class="tm-social" src="assets/img/twitter.png" alt="Logo do twitter">
+                    </a>
+                   
+                </div>
+            </footer>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    Todos os direitos reservados: Felipe Casagrande &copy;
+                 </p> 
+            </div>
+        </div>
+    <!--/Rodapé-->
+</div>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
